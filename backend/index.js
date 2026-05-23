@@ -66,3 +66,6 @@ app.listen(port, () => {
   console.log(`iNoteBook listening on port ${port}`);
 });
  
+app.get("/", (req, res) => {
+  res.send("iNotebook backend is running");
+});
