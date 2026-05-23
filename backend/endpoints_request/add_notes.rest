@@ -1,0 +1,9 @@
+POST http://localhost:5000/api/Notes/addnotes
+Content-Type: application/json
+auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjhlZDRiYmM0NWUyNGZhZGRkZjUwN2ExIn0sImlhdCI6MTc2MDQzNjQxNn0.5ZdWR_uM1boWrD--NojmtUVBneG4zuPCZmr1jhQSPz8
+
+{
+    "title":"younas khan",
+    "description":" this is younas khan",
+    "tag":"private"
+}
