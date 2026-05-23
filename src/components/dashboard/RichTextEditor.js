@@ -3,7 +3,7 @@ import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Placeholder from '@tiptap/extension-placeholder';
 import {
-  Bold, Italic, Heading1, Heading2, List, ListOrdered,
+  Bold, Heading1, Heading2, List, ListOrdered,
   Code, Quote, Undo, Redo, Type
 } from 'lucide-react';
 import './RichTextEditor.css';
@@ -129,3 +129,4 @@ const RichTextEditor = ({ value, onChange, placeholder = 'Write something...' })
 };
 
 export default RichTextEditor;
+
