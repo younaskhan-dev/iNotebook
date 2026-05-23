@@ -62,10 +62,12 @@ app.use((err, req, res, next) => {
   next(err);
 });
 
+app.get("/", (req, res) => {
+  res.send("iNotebook backend is running");
+});
+
 app.listen(port, () => {
   console.log(`iNoteBook listening on port ${port}`);
 });
  
-app.get("/", (req, res) => {
-  res.send("iNotebook backend is running");
-});
+
