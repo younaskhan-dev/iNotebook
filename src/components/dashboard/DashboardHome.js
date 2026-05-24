@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Notecontext from '../../context/notes/notecontext';
 import ViewNoteModal from './ViewNoteModal';
 
