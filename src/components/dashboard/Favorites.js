@@ -6,7 +6,7 @@ import { stripHtml } from '../../utils/stripHtml';
 
 const Favorites = ({ showalert }) => {
   const context = useContext(Notecontext);
-  const { notes, getnotes, editenote, deletenote, favoriteIds, trashedIds, archivedIds, pinnedIds, noteColors, toggleFavorite, setNoteColor } = context;
+  const { notes, getnotes, editenote, deletenote, favoriteIds, trashedIds, archivedIds,  noteColors, toggleFavorite, setNoteColor } = context;
   const [editModal, setEditModal] = useState(false);
   const [editingNote, setEditingNote] = useState(null);
   const [viewModalOpen, setViewModalOpen] = useState(false);

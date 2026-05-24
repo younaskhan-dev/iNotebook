@@ -19,7 +19,7 @@ const StatCard = ({ icon, label, count, color, description, index }) => (
 const DashboardHome = ({ showalert, searchQuery }) => {
   const context = useContext(Notecontext);
   const { notes, getnotes, favoriteIds, archivedIds, trashedIds, pinnedIds, noteColors, toggleFavorite, deletenote } = context;
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [viewModalOpen, setViewModalOpen] = React.useState(false);
   const [viewingNote, setViewingNote] = React.useState(null);
 
